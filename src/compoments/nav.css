@@ -1,0 +1,66 @@
+
+.navbar{
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.nav{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 50%;
+    top: 30%;
+    max-width: 100%;
+    transform: translate(50%,50%);
+}
+
+.nav-text{
+    letter-spacing: 2px;
+}
+
+.icon{
+    font-size: 40px;
+    cursor: pointer;
+    transition: 2s ease-in;
+    animation-duration: 1s;
+}
+
+.icon:hover{
+    animation-name: glide;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    color: purple!important;
+}
+
+@keyframes glide{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(12px); 
+    }
+}
+
+.hlo{
+    height: 100vh;
+    background-color: red;
+    z-index: -1;
+}
+
+@media(max-width:400px){
+    .nav{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 50%;
+        top: 10%;
+        max-width: 100%;
+        transform: translate(50%,50%);
+    }
+
+    .nav > h2{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+}

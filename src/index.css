@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    font-family: 'Bree Serif', serif;
+    background-image: url('/public/images/pp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  
+} 
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
