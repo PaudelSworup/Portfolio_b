@@ -20,7 +20,7 @@ const Cards = () => {
               </p>
               {cur.title === "Youtube Videos" ? (
                 <p
-                  className="card-text  text-center card-text ytchannel"
+                  className="card-text  text-center text-white card-text ytchannel"
                   onClick={() => ytChannel()}
                 >
                   {cur.channel}

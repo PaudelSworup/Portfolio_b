@@ -7,6 +7,8 @@ import Services from "./compoments/Services";
 import Portfolio from "./compoments/Portfolio";
 import Youtube from "./compoments/Youtube";
 import Skills from "./compoments/Skills";
+import Contact from "./compoments/Contact";
+import Footer from "./compoments/Footer";
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
       <Portfolio />
       <Youtube />
       <Skills />
+      <Contact />
+      <Footer />
     </>
   );
 };

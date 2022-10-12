@@ -37,7 +37,7 @@ const Navigation = () => {
 
     const colorsChanger = document.querySelectorAll(".colors");
     for (let i = 0; i < colorsChanger.length; i++) {
-      colorsChanger[i].style.backgroundColor = "";
+      colorsChanger[i].style.background = "";
     }
 
     const desc = document.querySelectorAll(".desc");
@@ -55,7 +55,7 @@ const Navigation = () => {
     document.body.style.background = "#111";
     const colorsChanger = document.querySelectorAll(".colors");
     for (let i = 0; i < colorsChanger.length; i++) {
-      colorsChanger[i].style.backgroundColor = "black";
+      colorsChanger[i].style.background = "black";
     }
 
     const heading = document.querySelectorAll(".head");
@@ -104,7 +104,7 @@ const Navigation = () => {
                     aria-current="page"
                     href={cur.links === "Home" ? `#` : `#${cur.links}`}
                   >
-                    {cur.links}
+                    <span className="navSpan">{cur.links}</span>
                   </a>
                 </li>
               ))}
@@ -115,6 +115,7 @@ const Navigation = () => {
       <div className="blackWhite">
         <i>
           <FontAwesomeIcon
+            title="day mode"
             onClick={() => Day()}
             className="text-warning"
             style={{ height: "30px", width: "30px" }}
@@ -124,6 +125,7 @@ const Navigation = () => {
 
         <i>
           <FontAwesomeIcon
+            title="night mode"
             onClick={() => Night()}
             className="text-info"
             style={{ height: "30px", width: "30px" }}

@@ -1,3 +1,49 @@
 .skills{
-    background-color: #123;
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+    /* background-color: black; */
 }
+
+
+.progress-bar-div > label{
+    letter-spacing: 2px
+}
+
+
+
+.progress-bar-div > progress{
+    max-width: 100%;
+    width: 90%;
+    height: 15px;
+    margin: 20px;
+    border-radius: 50px;
+    background: crimson;
+    color: aqua;
+}
+
+
+
+progress::-webkit-progress-value {
+    background:dodgerblue;
+    border-radius: 50px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: lightblue;
+    border-radius: 50px;
+  }
+
+  .toTop{
+    width: 30px;
+    height: 30px;
+    background-color: dodgerblue;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding:10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+  }
+
+  
