@@ -46,4 +46,14 @@ export const Myworks = [
     desc: "This site is developed when I was in 3rd semester and is built using HTML, CSS and javascript",
     img: "../images/game.jpg",
   },
+
+  {
+    id: 7,
+    title: "State Management with Redux and local storage ",
+    url: "https://redux-state-management.vercel.app",
+    desc: "This project  is developed to demonstrate the redux and its functionalities and we have use local storage to manage the app state",
+    img: "../images/todo.jpg",
+  },
 ];
+
+// https://redux-state-management.vercel.app/

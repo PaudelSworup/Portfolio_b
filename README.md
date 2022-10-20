@@ -2,5 +2,4 @@
 
 <hr>
 <div>
-<video controls src="/react-portfolio/public/images/vid.mp4" width="500px"></video>
 </div>
