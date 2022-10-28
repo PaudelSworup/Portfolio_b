@@ -21,9 +21,10 @@ const Sections = () => {
               <p className="desc">
                 Welcome viewers! This is Sworup Kc currently living at Bhaktapur
                 and learning BCA at kathmandu college of technology. I love to
-                design and develop websites and mobile applications and besides
-                from that I love to sing a song, to make youtube videos, to
-                watch and play football and love to travel.
+                design and develop websites and mobile applications and I
+                started coding when I came to learn at KCT for bachelor study
+                and besides from that I love to sing a song, to make youtube
+                videos, to watch and play football and love to travel.
               </p>
               <button className="btn btn-primary download">
                 <a
