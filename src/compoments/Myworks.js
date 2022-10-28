@@ -54,6 +54,12 @@ export const Myworks = [
     desc: "This project  is developed to demonstrate the redux and its functionalities and we have use local storage to manage the app state",
     img: "../images/todo.jpg",
   },
+
+  {
+    id: 8,
+    title: "API call demonstration in javascript",
+    url: "https://api-response.netlify.app/",
+    desc: "This small task is developed to demonstrate the API call in javascript using fetch Method",
+    img: "../images/fetch.jpg",
+  },
 ];
-
-
