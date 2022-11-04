@@ -62,4 +62,12 @@ export const Myworks = [
     desc: "This small task is developed to demonstrate the API call in javascript using fetch Method",
     img: "../images/fetch.jpg",
   },
+
+  {
+    id: 8,
+    title: "API call in React with Detail Page functions",
+    url: "https://load-api.vercel.app/",
+    desc: "This small task is developed to demonstrate the API call in React using axios Method and also we have used the detail page functionality with the help of react router dom",
+    img: "../images/axios.jpg",
+  },
 ];
