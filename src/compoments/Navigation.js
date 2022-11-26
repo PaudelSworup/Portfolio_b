@@ -73,7 +73,7 @@ const Navigation = () => {
       <nav className="shadow navbar navbar-expand-md  navbar-style">
         <div className="container">
           <Link to="/" className="link">
-            Portfolio
+            स्वRUप के.C
           </Link>
           <div
             id="navbar-togglers"
